@@ -4,7 +4,7 @@
   "description": "Curso de NodeJS, Clean Architecture e TDD do canal Mango",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/estherpeixoto/clean-node-api#readme",
   "devDependencies": {
     "husky": "^8.0.1",
+    "jest": "^28.1.2",
     "lint-staged": "^13.0.3",
     "standard": "^17.0.0"
   }
