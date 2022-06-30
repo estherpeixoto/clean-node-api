@@ -4,7 +4,7 @@
   "description": "Curso de NodeJS, Clean Architecture e TDD do canal Mango",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "test:staged": "jest",
     "prepare": "husky install"
   },
